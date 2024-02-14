@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bronze Pipe Clock</title>
+</head>
+<body>
+    <div class="clock">
+        <div class="frame">
+            <div class="pipe pipe-horizontal"></div>
+            <div class="pipe pipe-vertical"></div>
+            <div class="pipe pipe-diagonal"></div>
+            <div class="digital-screen" id="digitalScreen">
+                <div class="hour-hand" id="hour"></div>
+                <div class="minute-hand" id="minute"></div>
+                <div class="second-hand" id="second"></div>
+                <div class="digital-time" id="time"></div>
+            </div>
+            <div class="switch" onclick="toggleLight()" id="lightSwitch"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
